@@ -5,7 +5,7 @@
 ```
 SELECT COUNT(employees) FROM employees
 ```
-**vraag 2**:
+**Vraag 2**:
 ```
 SELECT locations.city, COUNT(departments.department_id) AS num_departments
 FROM locations
